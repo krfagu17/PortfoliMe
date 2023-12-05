@@ -61,3 +61,51 @@
     padding-top: 100px;
     padding-left: 100px;
 }
+
+
+/* responsive code */
+
+@media only screen and (max-width: 600px) {
+    .photo img{
+        
+        width: 300px;
+        height: 300px;
+        
+    }
+    .hero-salogan{
+        font-size: 30px;
+       
+    }
+    .main{
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    .icon-container{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        background: #8121D0;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    
+    }
+    .icon-container img{
+    height: 20px;
+    width: 20px;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    .buildThings{
+        font-size: 10px;
+    }
+    .heroContainer{
+        overflow: hidden;
+    }
+    .social-icons{
+        margin-top: 20px;
+    }
+    
+    }

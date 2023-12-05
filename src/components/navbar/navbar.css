@@ -30,3 +30,12 @@
     color: white;
     font-size: 20px;
  }
+
+ /* break pointa */
+ @media only screen and (max-width: 600px) {
+ .menuItems{display: none;}
+
+ }
+
+
+ 

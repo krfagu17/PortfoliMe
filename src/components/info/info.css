@@ -37,3 +37,29 @@
     width: 50px;
 
 }
+
+
+/* responsive code */
+
+@media only screen and (max-width: 600px){
+   .icon-section img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   } 
+   .info-container{
+    flex-wrap: wrap;
+    height: auto;
+   }
+   .icon-section{
+    margin-top: 20px;
+    
+    border-top:white 1px solid;
+    border-bottom:white 1px solid;
+   }
+   .three .info-text{
+    font-size: 15px;
+    color: red;
+   }
+}
