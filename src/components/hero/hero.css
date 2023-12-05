@@ -1,0 +1,63 @@
+.heroContainer{
+    width: auto;
+    height: auto;
+    background:linear-gradient(#291C3A,#331C52);
+    display: flex;
+    justify-content: space-between;
+}
+.webDevLogo{
+ 
+ display: flex;
+ flex-direction: column;
+ 
+ 
+}
+.hello{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.hero-salogan{
+    color: #8121D0;
+    font-size: 100px;
+    font-weight: bold;
+    
+}
+.buildThings{
+    color: white;
+    font-size: 30px;
+    
+    font-weight: bolder;
+
+}
+.social-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+   
+}
+.social-icons img{
+    border-radius:20px ;
+    height: 40px;
+    width: 40px;
+    
+
+}
+.icon-container{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #8121D0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.photo img{
+    height: 600px;
+    width: auto;
+}
+.main{
+    padding-top: 100px;
+    padding-left: 100px;
+}

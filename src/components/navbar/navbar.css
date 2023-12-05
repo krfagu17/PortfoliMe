@@ -1,0 +1,32 @@
+.nav-container{
+    height: 20%;
+    width: auto;
+    background-color: #8121D0;
+    display: flex;
+   padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+}.link{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    margin: 20px;
+}
+.menuItem{
+    display:grid;
+    row-gap: 50px;
+}
+.hireMe{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 3px;
+    font-size: 20px;
+    border-radius: 5px;
+ }
+ .logo{
+    color: white;
+    font-size: 20px;
+ }

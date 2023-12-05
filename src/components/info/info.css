@@ -1,0 +1,39 @@
+.info-container{
+    width: auto;
+    background: #291C3A;
+    height: 3vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+    
+    
+}
+.experince{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.three{
+ color: white;
+ font-size: 20px;
+ font-weight: 900;
+ gap: 10px;
+ 
+}
+.icon-section{
+    gap: 20px;
+    display: flex;
+}
+.icon-section img{
+    height: 50px;
+    width: 50px;
+
+}
