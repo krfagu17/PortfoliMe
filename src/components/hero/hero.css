@@ -37,17 +37,17 @@
    
 }
 .social-icons img{
-    border-radius:20px ;
-    height: 40px;
-    width: 40px;
-    
+     
+    height: 30px;
+    width: 30px;
+    filter: contrast(1.5);
 
 }
 .icon-container{
     height: 60px;
     width: 60px;
     border-radius: 50%;
-    background: #8121D0;
+    background: rgba(129, 33, 207,0.2);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -68,6 +68,7 @@
 @media only screen and (max-width: 600px) {
     .photo img{
         
+        margin-top: 30px;
         width: 300px;
         height: 300px;
         
@@ -83,8 +84,8 @@
     .icon-container{
         height: 30px;
         width: 30px;
-        border-radius: 50%;
-        background: #8121D0;
+        
+        background: white;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -94,12 +95,13 @@
     .icon-container img{
     height: 20px;
     width: 20px;
+    
     }
     .main{
         flex-wrap: wrap;
     }
     .buildThings{
-        font-size: 10px;
+        font-size: 20px;
     }
     .heroContainer{
         overflow: hidden;

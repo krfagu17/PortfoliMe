@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="buildThings">I build things for web</div>
       <div className="social-icons">
         <div className="icon-container">
-          <img src="./github.svg" />
+          <img src="./github.png" />
         </div>
 
         <div className="icon-container">
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
 
         <div className="icon-container">
-          <img src="./linkdin.svg" />
+          <img src="./linkedin.png" />
         </div>
       </div>
       </div>
