@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="main">
       <div className="webDevLogo">
         <div className='hello'>Hello</div>
-        <div className='hero-salogan'>I'm a web</div>
+        <div className='hero-salogan'>I'm a web and Android</div>
         <div className='hero-salogan'>Developer</div>
       </div>
 
