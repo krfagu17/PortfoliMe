@@ -12,7 +12,7 @@ const MySkill = () => {
             <div className="main-container">
                 <motion.div 
                 transition={{ duration: 0.8 }}
-                  initial={{ opacity: 0 , x: -1000}}
+                  initial={{ opacity: 0 , x: -100}}
                   whileInView={{ opacity: 1, x: 0 }}
                 className="skill-icons">
                     <motion.img
@@ -28,7 +28,7 @@ const MySkill = () => {
                 <motion.div 
                 
                 transition={{ duration: 0.8 }}
-                  initial={{ opacity: 0 , x: 1000}}
+                  initial={{ opacity: 0 , x: 100}}
                   whileInView={{ opacity: 1, x: 0 }}
                   className="skill-icons">
                     <motion.img

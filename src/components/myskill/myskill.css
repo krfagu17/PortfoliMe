@@ -36,3 +36,14 @@ h1{
     gap: 100px;
     display: flex;
 }
+@media only screen and (max-width: 600px) {
+    .skill-icons img{
+        height: 50px;
+        width: 50px;
+   }
+   .skill-icons{
+    gap: 30px;
+    display: flex;
+}
+   
+    }
