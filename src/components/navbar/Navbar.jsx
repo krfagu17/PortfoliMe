@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link className='link' to={'/'}>Home</Link>
         <Link className='link' to={'Test'}>About</Link>
         <Link className='link' to={'Home'}>Skills</Link>
-        <Link className='link' to={'Home'}>Projects</Link>
+        <Link className='link' to={'Project'}>Projects</Link>
       </div>
       <div className="hireMe"> <MdOutlineMailOutline />Hire Me</div>
     </div>

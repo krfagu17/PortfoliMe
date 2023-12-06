@@ -4,7 +4,6 @@ import './about.css';
 const About = () => {
   return (
     <div className='about-container'>
-        <img src='./about.gif'/>
      <div className="content">
         <h1 className="about">About Me</h1> <br />
      As a web developer, you specialize in creating 

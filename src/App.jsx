@@ -7,6 +7,7 @@ import Test from './Test';
 import Kumar from './Kumar';
 import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar';
+import Projects from './components/projects/Projects';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='Test' element={<Test/>} />
+        <Route path='Project' element={<Projects/>} />
         <Route path='Kumar' element={<Kumar/>} />
       </Routes>
     </BrowserRouter>
