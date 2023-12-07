@@ -31,6 +31,14 @@ export default function App() {
   img:"https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
   desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
   link:"",
+},
+{
+  id:4,
+  title:"E-commerce Web Design",
+  img:"https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+  link:"",
+
 }]
 
   return (
@@ -56,7 +64,7 @@ export default function App() {
       ref={ref}>
         {data.map((d)=>(
           <motion.li 
-          whileHover={{scale:1.1}}
+         
           key={d.id} className="card">
             <h3>{d.title}</h3>
             <img src={d.img} alt="" srcset="" />
