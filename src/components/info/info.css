@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    overflow: hidden;
+    
     
 
     
@@ -31,6 +31,7 @@
 .icon-section{
     gap: 20px;
     display: flex;
+  
     
 }
 .icon-section img{
