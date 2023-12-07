@@ -85,7 +85,7 @@ li:last-of-type {
     justify-content: center;
     align-items: center;
     width: auto;
-   
+   overflow: hidden;
   flex-direction: column;
   background-color: #331C52;
 
