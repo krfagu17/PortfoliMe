@@ -1,0 +1,113 @@
+body {
+    --black: #000000;
+    --ash-black: #222;
+    --white: #fafafa;
+    --sky: #00ccff;
+    --green: #22dddd;
+    --blue: #1300ff;
+    --dusk: #6600ff;
+    --purple: #9900ff;
+    --pink: #ff0066;
+    --red: #fe0222;
+    --orange: #fd7702;
+    --yellow: #ffbb00;
+
+    --background: var(--blue);
+    --accent: var(--white);
+}
+
+
+
+#progress {
+
+    transform: rotate(-90deg);
+}
+
+circle {
+    stroke-dashoffset: 0;
+    stroke-width: 15%;
+    fill: none;
+}
+
+.bg {
+    stroke: var(--blue);
+    opacity: 1;
+}
+
+#progress .indicator {
+    stroke: var(--accent);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+    height: 400px;
+    overflow-x: scroll;
+    padding: 20px 0;
+    width: 950px;
+   
+
+}
+
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: rgba(122, 14, 14, 0.2);
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dusk);
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+    background: #fff3;
+}
+
+li {
+    flex: 0 0 300px;
+   display: flex;
+  border-radius:20px ;
+   align-items: center;
+    background: var(--accent);
+    flex-direction: column;
+    margin: 0 20px 0 0;
+}
+
+li:last-of-type {
+    margin: 0;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+   
+  flex-direction: column;
+  background-color: #331C52;
+
+}
+.card img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+} 
+.btns button {
+    background-color: #331C52;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}  
+.btns button a{
+    text-decoration: none;
+    color: var(--accent);
+    font-size: large;
+}
