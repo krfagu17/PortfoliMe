@@ -4,9 +4,9 @@ import './contact.css';
 
  const Contact = () => {
   const form = useRef();
-  const serviceID = import.meta.env.VITE_SERVICE_ID;
-  const templateID = import.meta.env.VITE_TEMPLATE_ID;
-  const userID = import.meta.env.VITE_PUBLIC_KEY;
+  const serviceID =import.meta.env.VITE_REACT_APP_SERVICE_ID;
+  const templateID =import.meta.env.VITE_REACT_APP_TEMPLATE_ID;
+  const userID =import.meta.env.VITE_REACT_APP_PUBLIC_KEY;
 
   const sendEmail = (e) => {
     e.preventDefault();
