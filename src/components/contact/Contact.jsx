@@ -4,14 +4,18 @@ import './contact.css';
 
  const Contact = () => {
   const form = useRef();
+  const serviceID = import.meta.env.VITE_SERVICE_ID;
+  const templateID = import.meta.env.VITE_TEMPLATE_ID;
+  const userID = import.meta.env.VITE_PUBLIC_KEY;
 
   const sendEmail = (e) => {
     e.preventDefault();
-    form.current.reset();
+    
 
-    emailjs.sendForm('service_o6e148t', 'template_gfpp6x8', form.current, 'ghqnGImBHyq4OEqOd')
+    emailjs.sendForm(serviceID, templateID, form.current, userID)
       .then((result) => {
           console.log(result.text);
+          form.current.reset();
         
 
 
@@ -31,6 +35,7 @@ import './contact.css';
       <label>Message</label>
       <textarea name="message" />
       <input type="submit" value="Send" />
+      
     </form>
     </div>
   );
