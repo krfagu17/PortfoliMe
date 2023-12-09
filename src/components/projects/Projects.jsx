@@ -67,7 +67,7 @@ export default function App() {
          
           key={d.id} className="card">
             <h3>{d.title}</h3>
-            <img src={d.img} alt="" srcset="" />
+            <img  src={d.img} alt={d.title}  />
             <div className="btns">
               <button><a href={d.link}>Code</a></button>
               <button><a href={d.live}>Live</a></button>
