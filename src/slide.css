@@ -1,0 +1,41 @@
+.slider{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.slidercontent {
+    height: 300px;
+    width: 200px;
+   
+   
+   
+}
+.slidercontentn>img{
+    height: 200px;
+    width: 200px;
+    
+   
+}
+.slidercontent>p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

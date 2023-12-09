@@ -27,10 +27,10 @@ export default function App() {
 },
 {
   id:3,
-  title:"E-commerce Web Design",
-  img:"https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+  title:"Netflix Clone",
+  img:"./projects/netflix.jpg",
   desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
-  link:"",
+  link:"https://github.com/krfagu17/Netflic-Clone-Android?tab=readme-ov-file",
 },
 {
   id:4,

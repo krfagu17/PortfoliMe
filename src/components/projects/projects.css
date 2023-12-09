@@ -36,6 +36,8 @@ circle {
 
 #progress .indicator {
     stroke: var(--accent);
+    
+
 }
 
 ul {
@@ -44,6 +46,7 @@ ul {
 
     height: 400px;
     overflow-x: scroll;
+    scroll-margin: 0 20px;
     padding: 20px 0;
     width: 950px;
    
@@ -51,6 +54,7 @@ ul {
 }
 
 ::-webkit-scrollbar {
+    display: none;
     height: 5px;
     width: 5px;
     background: rgba(122, 14, 14, 0.2);
@@ -110,4 +114,11 @@ li:last-of-type {
     text-decoration: none;
     color: var(--accent);
     font-size: large;
+}
+
+/* break pointa */
+@media only screen and (max-width: 600px) {
+    ul{
+        width: 300px;
+    }
 }

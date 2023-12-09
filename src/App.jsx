@@ -8,6 +8,7 @@ import Kumar from './Kumar';
 import Home from './components/home/Home';
 import Navbar from './components/navbar/Navbar';
 import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='Test' element={<Test/>} />
+        <Route path='Contact' element={<Contact/>} />
         <Route path='Project' element={<Projects/>} />
         <Route path='Kumar' element={<Kumar/>} />
       </Routes>

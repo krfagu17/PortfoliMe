@@ -1,0 +1,42 @@
+.contactContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    background:#331C52;
+    padding: 20px;
+}
+.formContainer{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.formContainer input{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.formContainer textarea{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.formContainer input:nth-last-child(1){
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #8121D0;
+    color: white;
+}
+.formContainer label{
+    color: white;
+}
