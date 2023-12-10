@@ -8,15 +8,15 @@ const Info = () => {
     
     className='info-container'>
         <div className="experince">
-            <div style={{fontSize:'50px',color:"white"}}>3</div>
+            <div style={{fontSize:'50px',color:"white"}}>6</div>
             <div className='three'>
-                <div style={{color:'#DCCFED'}}>YEARS OF</div> 
+                <div style={{color:'#DCCFED'}}>MONTHS OF</div> 
                 <div style={{color:'#DCCFED'}}>EXPERIENCE </div> 
             </div>
         </div>
 
         <div className="experince">
-            <div style={{fontSize:'50px',color:"white"}}>12</div>
+            <div style={{fontSize:'50px',color:"white"}}>5</div>
             <div className='three'>
                 <div className='info-text'  style={{color:'#DCCFED'}}>PROJECT COMPLETED</div> 
                 <div className='info-text'  style={{color:'#DCCFED'}}>AROUND THE WORLD</div> 
