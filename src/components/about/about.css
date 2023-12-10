@@ -4,11 +4,11 @@
   background:#331C52;
   padding:20px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   
 }
 .content{
-    width: 800px;
+    width:auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,13 +20,20 @@
     
     
 }
+.contentIn{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+
+}
 .about{
     font-size: 50px;
-    color: #8121D0;
+    color: white;
     
 }
 @media only screen and (max-width: 600px) {
   .content{
-    font-size: 10px;
+    font-size: 12px;
   }
 }

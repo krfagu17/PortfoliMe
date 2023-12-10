@@ -6,6 +6,7 @@
     width: auto;
     background:#331C52;
     padding: 20px;
+    gap: 100px;
 }
 .formContainer{
     width: 300px;
@@ -39,4 +40,15 @@
 }
 .formContainer label{
     color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactContainer{
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+    .formContainer{
+        width: 100%;
+    }
 }

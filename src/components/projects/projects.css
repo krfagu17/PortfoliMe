@@ -30,12 +30,12 @@ circle {
 }
 
 .bg {
-    stroke: var(--blue);
+    stroke: white;
     opacity: 1;
 }
 
 #progress .indicator {
-    stroke: var(--accent);
+    stroke: #8121D0;
     
 
 }
