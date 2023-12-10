@@ -1,16 +1,27 @@
 import React from 'react';
 import './about.css';
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import wavingHand from '../../../public/lottie/About-Animation.json';
 
 const About = () => {
   return (
     <div className='about-container'>
      <div className="content">
         <h1 className="about">About Me</h1> <br />
-     As a web developer, you specialize in creating 
+        <Player
+  autoplay
+  loop={false}
+  speed={0.5}
+  src={wavingHand}
+  style={{ height: '400px', width: '400px' }}
+>
+
+</Player>
+     As a web developer,I am specialize in creating 
      and maintaining websites and web applications.
-      You are proficient in HTML, CSS, and JavaScript,
-       and you have a strong understanding of front-end 
-       frameworks like React or Angular. You are skilled 
+      I am proficient in HTML, CSS, and JavaScript,
+       and I have a strong understanding of front-end 
+       frameworks like React or Angular. I am skilled 
        in designing user-friendly interfaces and optimizing
         websites for performance and responsiveness.
      </div>
