@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link className='link' to={'Home'}>Skills</Link>
         <Link className='link' to={'Project'}>Projects</Link>
       </div>
-      <div className="hireMe"> <MdOutlineMailOutline />Hire Me</div>
+      <a href='/public/resume/Fagu-Kumar-google.pdf' className="hireMe"> <MdOutlineMailOutline />Hire Me</a>
     </div>
   )
 }

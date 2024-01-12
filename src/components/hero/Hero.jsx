@@ -15,17 +15,19 @@ const Hero = () => {
 
       <div className="buildThings">I build things for web</div>
       <div className="social-icons">
-        <div className="icon-container">
+        <a href='https://www.github.com/krfagu17' className="icon-container">
+          
           <img src="./github.png" />
-        </div>
+          
+        </a>
 
-        <div className="icon-container">
+        <a href='https://www.instagram.com/kumarsam17/' className="icon-container">
           <img src="./instagram.png" />
-        </div>
+        </a>
 
-        <div className="icon-container">
+        <a href='https://www.linkedin.com/in/krfagu17' className="icon-container">
           <img src="./linkedin.png" />
-        </div>
+        </a>
       </div>
       </div>
       <div className="photo"><img src="./sam4.png" /></div>
