@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link className='link' to={'Home'}>Skills</Link>
         <Link className='link' to={'Project'}>Projects</Link>
       </div>
-      <a href='/resume/Fagu-Kumar-google.pdf' className="hireMe"> <MdFileDownload />Resume</a>
+      <a href='/resume/resume.pdf' className="hireMe"> <MdFileDownload />Resume</a>
     </div>
   )
 }
